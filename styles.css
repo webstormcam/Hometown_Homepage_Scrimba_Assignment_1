@@ -91,7 +91,6 @@ footer{
 
 #guide{
     display: flex;
-    flex-direction: row;
     margin-top: 73px;
     padding: 10px 15px;
     width: 400px;
