@@ -1,3 +1,49 @@
 *{
     box-sizing: border-box;
 }
+
+header{
+    background-image: url('images/Port_Credit.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 343px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Acme', sans-serif;
+    
+}
+
+#header_title{
+    color: #ffffff;
+    background-color: #054A91;
+    padding: 10px 15px;
+    font-size: 32px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+#tagline{
+    color: #ffffff;
+    background-color: #3e7cb1;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+main{
+    background-color: #DBE4EE;
+}
+
+
+
+@media  screen and (max-width:575px) {
+    #header_title{
+        font-size: 20px;
+    }
+
+    #tagline{
+        font-size: 13px;
+    }
+}
