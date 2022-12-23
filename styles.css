@@ -101,6 +101,9 @@ footer{
 
 #guide_description{
     text-align: center;
+    margin-top: 30px;
+    font-family: 'Acme', sans-serif;
+    padding: 0px 10px 0px 10px;
 }
 
 #me{
@@ -109,6 +112,15 @@ footer{
     border-radius: 10px;
     object-fit: cover;
 
+}
+
+#guide_title{
+font-size: 24px;
+}
+
+#quote{
+    margin-top: 14px;
+    margin-bottom: 26px;
 }
 
 
